@@ -10,7 +10,7 @@ public class TestController {
     @GetMapping("/test")
     public JSONObject test(){
         JSONObject obj = new JSONObject();
-        obj.put("name", "zhangsan");
+        obj.put("name", "lisi");
         obj.put("age", 20);
         return obj;
     }
